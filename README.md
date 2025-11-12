@@ -3,11 +3,11 @@
 <img src="image.png" alt="Pokemon world" height="700"/>
 </p>
 
-This app is a game that lets players create an account, catch pokemons in the pokeworld, and battle pokemons.
+This app is an Android game built with Jetpack Compose and follows a MVVM (Model–View–ViewModel) architecture that lets players create an account, catch pokemons in the pokeworld, and battle pokemons.
+
+This app uses Room for local persistence, Ktor for API calls to PokeAPI, BCrypt for password hashing, and Material 3 for UI.
 
 Main source code is located under `app/src/main/java/com/bcit/myminiapp`
-
-When the player creates an account, the password is hashed in Room using BCrypt. 
 
 In the pokeworld, the player encounters a random pokemon (a randomly generated id number is to fetch the random pokemon from the PokeAPI), and can try to catch it. Catch success is 50%, determined by randomly generating a boolean. 
 
