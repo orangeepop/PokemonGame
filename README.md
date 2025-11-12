@@ -5,7 +5,7 @@
 
 This app is an Android game built with Jetpack Compose and follows a MVVM (Model–View–ViewModel) architecture that lets players create an account, catch pokemons in the pokeworld, and battle pokemons.
 
-This app uses Room for local persistence, Ktor for API calls to PokeAPI, BCrypt for password hashing, and Material 3 for UI.
+This app uses Room for local persistence, Ktor for API calls to PokeAPI, BCrypt for password hashing, and Material 3 for UI. It is fully declarative and reactive (using observable state variables).
 
 Main source code is located under `app/src/main/java/com/bcit/myminiapp`
 
