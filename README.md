@@ -3,7 +3,9 @@
 <img src="image.png" alt="Pokemon world" height="700"/>
 </p>
 
-An game that lets players create an account, catch pokemons in the pokeworld, and battle pokemons.
+This app is a game that lets players create an account, catch pokemons in the pokeworld, and battle pokemons.
+
+Main source code is located under `app/src/main/java/com/bcit/myminiapp`
 
 When the player creates an account, the password is hashed in Room using BCrypt. 
 
